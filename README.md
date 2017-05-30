@@ -33,7 +33,15 @@
   * (6.3) QSlider
   * (6.4) QProgressBar
   * (6.5) QCalendarWidget
-  
+7. More Widgets
+  * (7.1) QPixmap
+  * (7.2) QLineEdit
+  * (7.3) QSplitter
+  * (7.4) QComboBox
+8. Drag and drop
+  * (8.1) Simple drag and drop
+  * (8.2) Drag & drop a button widget
+  * (8.3) 
   
 
 
