@@ -41,7 +41,13 @@
 8. Drag and drop
   * (8.1) Simple drag and drop
   * (8.2) Drag & drop a button widget
-  * (8.3) 
+9. Painting
+  * (9.1) Drawing text
+  * (9.2) Drawing points
+  * (9.3) Colors
+  * (9.4) QPen
+  * (9.5) QBrush
+  
   
 
 
