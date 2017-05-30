@@ -47,8 +47,10 @@
   * (9.3) Colors
   * (9.4) QPen
   * (9.5) QBrush
-  
-  
+10. Custom Widgets
+  * (10.1) Burning Widget
+11. Tetris Game
+  * (11.1) Tetris source
 
 
    
