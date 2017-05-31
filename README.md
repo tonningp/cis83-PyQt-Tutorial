@@ -1,5 +1,5 @@
 # cis83-PyQt-Tutorial
-
+Explanation and further help for these python3 source files can be found here: [link](http://zetcode.com/gui/pyqt5/ "PyQt5 tutorial").
 1. First Program
   * (1.1) Simple Example
   * (1.2) Application icon
