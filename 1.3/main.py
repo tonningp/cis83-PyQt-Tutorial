@@ -27,7 +27,7 @@ class Example(QWidget):
         self.setToolTip('This is a <b>QWidget</b> widget')
         
         btn = QPushButton('Button', self)
-        btn.setToolTip('This is a <b>QPushButton</b> widget')
+        btn.setToolTip('<span style="font-size:24px;">This is a <b>QPushButton</b> widget</span>')
         btn.resize(btn.sizeHint())
         btn.move(50, 50)       
         

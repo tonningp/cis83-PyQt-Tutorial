@@ -3,22 +3,26 @@
 
 
 import sys
+import time
+from PyQt5.QtCore import QTimer
 from PyQt5.QtWidgets import QWidget, QApplication
 from PyQt5.QtGui import QPainter, QColor, QBrush
 
 
-class Example(QWidget):
+class ButtonWatcher(QWidget):
     
     def __init__(self):
         super().__init__()
         self.ledOn = True 
         self.initUI()
         
-        
+    def updateWidget(self):
+        self.update()
+
     def initUI(self):      
 
         self.setGeometry(300, 300, 350, 100)
-        self.setWindowTitle('Colours')
+        self.setWindowTitle('Pi Button Watcher')
         self.show()
 
 
@@ -47,5 +51,8 @@ class Example(QWidget):
 if __name__ == '__main__':
     
     app = QApplication(sys.argv)
-    ex = Example()
+    ex = ButtonWatcher()
+    timer = QTimer()
+    timer.timeout.connect(ex.updateWidget)
+    timer.start(100)
     sys.exit(app.exec_())
